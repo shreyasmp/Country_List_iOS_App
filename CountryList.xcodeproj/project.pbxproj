@@ -46,6 +46,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		DD4403532E222BDC00D3A6B9 /* Images */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Images;
+			sourceTree = "<group>";
+		};
 		DDBB9AD42DFFDAC2000F73DB /* GraphQL */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = GraphQL;
@@ -128,6 +133,7 @@
 		DDD55E5A2DFFCDDE00C231CA = {
 			isa = PBXGroup;
 			children = (
+				DD4403532E222BDC00D3A6B9 /* Images */,
 				DDBB9AD62E00FF78000F73DB /* Apollo */,
 				DDD55E652DFFCDDE00C231CA /* CountryList */,
 				DDD55E762DFFCDDF00C231CA /* CountryListTests */,
@@ -166,6 +172,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				DD4403532E222BDC00D3A6B9 /* Images */,
 				DDBB9AD42DFFDAC2000F73DB /* GraphQL */,
 				DDBB9AD62E00FF78000F73DB /* Apollo */,
 				DDD55E652DFFCDDE00C231CA /* CountryList */,
