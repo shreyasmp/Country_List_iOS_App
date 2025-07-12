@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject private var viewModel = CountriesViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List(viewModel.countries, id: \.code) { country in
+            VStack(alignment: .leading) {
+                Text(country.name).font(.headline)
+                Text(country.code).font(.subheadline)
+            }
         }
-        .padding()
+        .onAppear {
+            viewModel.fetchCountries()
+        }
     }
 }
 
