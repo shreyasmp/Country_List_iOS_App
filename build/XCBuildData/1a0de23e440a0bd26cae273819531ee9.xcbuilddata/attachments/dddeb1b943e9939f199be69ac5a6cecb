@@ -1,0 +1,25 @@
+{
+  "" : {
+    "const-values" : "/Users/shreyasmuthkur/Documents/XcodeProjects/CountryList/build/CountryList.build/Release-iphoneos/CountryList.build/Objects-normal/arm64/CountryList-master.swiftconstvalues",
+    "dependencies" : "/Users/shreyasmuthkur/Documents/XcodeProjects/CountryList/build/CountryList.build/Release-iphoneos/CountryList.build/Objects-normal/arm64/CountryList-master.d",
+    "diagnostics" : "/Users/shreyasmuthkur/Documents/XcodeProjects/CountryList/build/CountryList.build/Release-iphoneos/CountryList.build/Objects-normal/arm64/CountryList-master.dia",
+    "emit-module-dependencies" : "/Users/shreyasmuthkur/Documents/XcodeProjects/CountryList/build/CountryList.build/Release-iphoneos/CountryList.build/Objects-normal/arm64/CountryList-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/shreyasmuthkur/Documents/XcodeProjects/CountryList/build/CountryList.build/Release-iphoneos/CountryList.build/Objects-normal/arm64/CountryList-master-emit-module.dia",
+    "swift-dependencies" : "/Users/shreyasmuthkur/Documents/XcodeProjects/CountryList/build/CountryList.build/Release-iphoneos/CountryList.build/Objects-normal/arm64/CountryList-master.swiftdeps"
+  },
+  "/Users/shreyasmuthkur/Documents/XcodeProjects/CountryList/CountryList/ContentView.swift" : {
+    "index-unit-output-path" : "/CountryList.build/Release-iphoneos/CountryList.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/shreyasmuthkur/Documents/XcodeProjects/CountryList/build/CountryList.build/Release-iphoneos/CountryList.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/shreyasmuthkur/Documents/XcodeProjects/CountryList/build/CountryList.build/Release-iphoneos/CountryList.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/shreyasmuthkur/Documents/XcodeProjects/CountryList/CountryList/CountryListApp.swift" : {
+    "index-unit-output-path" : "/CountryList.build/Release-iphoneos/CountryList.build/Objects-normal/arm64/CountryListApp.o",
+    "llvm-bc" : "/Users/shreyasmuthkur/Documents/XcodeProjects/CountryList/build/CountryList.build/Release-iphoneos/CountryList.build/Objects-normal/arm64/CountryListApp.bc",
+    "object" : "/Users/shreyasmuthkur/Documents/XcodeProjects/CountryList/build/CountryList.build/Release-iphoneos/CountryList.build/Objects-normal/arm64/CountryListApp.o"
+  },
+  "/Users/shreyasmuthkur/Documents/XcodeProjects/CountryList/build/CountryList.build/Release-iphoneos/CountryList.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/CountryList.build/Release-iphoneos/CountryList.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/shreyasmuthkur/Documents/XcodeProjects/CountryList/build/CountryList.build/Release-iphoneos/CountryList.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/shreyasmuthkur/Documents/XcodeProjects/CountryList/build/CountryList.build/Release-iphoneos/CountryList.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

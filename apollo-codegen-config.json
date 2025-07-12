@@ -1,0 +1,43 @@
+{
+  "schemaNamespace" : "CountryList",
+  "input" : {
+    "operationSearchPaths" : [
+        "GraphQL/CountriesQuery.graphql"
+    ],
+    "schemaSearchPaths" : [
+        "GraphQL/schema.graphqls"
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "Apollo/",
+      "moduleType" : {
+        "swiftPackageManager" : {
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  },
+  "schemaDownloadConfiguration": {
+      "downloadMethod": {
+          "introspection": {
+              "endpointURL": "http://localhost:8080/graphql",
+              "httpMethod": {
+                  "POST": {}
+              },
+              "includeDeprecatedInputValues": false,
+              "outputFormat": "SDL"
+          }
+      },
+      "downloadTimeout": 60,
+      "headers": [],
+      "outputPath": "GraphQL/schema.graphqls"
+  }
+}
