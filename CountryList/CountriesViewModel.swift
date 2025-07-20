@@ -8,16 +8,24 @@
 import Foundation
 import Apollo
 
-class CountriesViewModel: ObservableObject {
-    @Published var countries: [CountriesQuery.Data.Country] = []
 
+class CountriesViewModel: ObservableObject {
+    @Published var countries: [Country] = []
+    private let service: CountriesService
+
+    init(service: CountriesService = ApolloCountriesService()) {
+        self.service = service
+    }
+    
     func fetchCountries() {
-        Network.shared.apollo.fetch(query: CountriesQuery()) { result in
-            switch result {
-            case .success(let graphQLResult):
-                self.countries = graphQLResult.data?.countries ?? []
-            case .failure(let error):
-                print("Error: \(error)")
+        service.fetchCountries { [weak self] result in
+            DispatchQueue.main.async {
+                switch result {
+                case .success(let countries):
+                    self?.countries = countries
+                case .failure(let error):
+                    print("Error: \(error)")
+                }
             }
         }
     }
